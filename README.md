@@ -1,5 +1,5 @@
-# youtube-source
-A rewritten YouTube source manager for Lavaplayer.
+# youtube-source-lavecat-fork
+A rewritten YouTube source manager for Lavaplayer. ( fork by lavecat LOL )
 
 This source aims to provide robustness by leveraging multiple InnerTube clients
 for requests. Where one client fails, another will try to load the request.
