@@ -18,6 +18,7 @@ public class YoutubeConfig {
     private String[] clients;
     private Map<String, ClientOptions> clientOptions = new HashMap<>();
     private YoutubeOauthConfig oauth = null;
+    private String youtubeScript = null;
 
     public boolean getEnabled() {
         return enabled;
@@ -49,6 +50,14 @@ public class YoutubeConfig {
 
     public YoutubeOauthConfig getOauth() {
         return this.oauth;
+    }
+
+    public String getYoutubeScript() {
+        return youtubeScript;
+    }
+
+    public void setYoutubeScript(String youtubeScript) {
+        this.youtubeScript = youtubeScript;
     }
 
     public void setEnabled(boolean enabled) {
